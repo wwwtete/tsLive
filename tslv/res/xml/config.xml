@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="io.nuwa.live.hx.app" version="1.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Umeng">
+        <param name="android-package" value="com.umeng.plugin.UMPlugin" />
+    </feature>
+    <feature name="HotCodePush">
+        <param name="android-package" value="com.nordnetab.chcp.main.HotCodePushPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="BackgroundMode">
+        <param name="android-package" value="de.appplant.cordova.plugin.background.BackgroundMode" />
+    </feature>
+    <feature name="LaunchMyApp">
+        <param name="android-package" value="nl.xservices.plugins.LaunchMyApp" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="Insomnia">
+        <param name="android-package" value="nl.xservices.plugins.Insomnia" />
+    </feature>
+    <feature name="NativeClick">
+        <param name="android-package" value="com.matimenich.plugins.nativeclick.NativeClick" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="NativeStorage">
+        <param name="android-package" value="NativeStorage" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="LiveSDKPlugin">
+        <param name="android-package" value="io.nuwa.live.app.sdk.plugin.livekit.LiveSDKPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="LivePlayer">
+        <param name="android-package" value="io.nuwa.live.app.sdk.plugin.liveplayer.LivePlayer" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="android-package" value="io.ionic.keyboard.IonicKeyboard" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Diagnostic">
+        <param name="android-package" value="cordova.plugins.Diagnostic" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>桃色直播</name>
+    <description> HxLiveApp
+</description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io"> The Nuwa Team
+</author>
+    <content src="main.html" />
+    <access origin="*" />
+    <access origin="cdvfile://*" />
+    <access origin="file:///*" />
+    <allow-navigation href="*" />
+    <allow-navigation href="cdvfile://*" />
+    <allow-intent href="cdvfile://*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <chcp>
+        <native-interface version="1" />
+        <auto-download enabled="false" />
+        <config-file url="http://web.taoselive.com/chcp.json" />
+    </chcp>
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine" />
+    <preference name="xwalkVersion" value="22+" />
+    <preference name="xwalkLiteVersion" value="xwalk_core_library_canary:17+" />
+    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
+    <preference name="xwalkMode" value="embedded" />
+    <preference name="xwalkMultipleApk" value="true" />
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="loadUrlTimeoutValue" value="60000" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="HideKeyboardFormAccessoryBar" value="true" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="android-targetSdkVersion" value="22" />
+    <preference name="KeepRunning" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#9a00c7" />
+    <preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external,root" />
+    <preference name="android-manifest/application/@android:hardwareAccelerated" value="custom" />
+    <preference name="android-manifest/@android:hardwareAccelerated" value="custom" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+</widget>

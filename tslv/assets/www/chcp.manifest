@@ -1,0 +1,662 @@
+[
+    {
+        "file": "anchorSource/avatar_01.png",
+        "hash": "97e820d1ae531244947145f727834bbe"
+    },
+    {
+        "file": "anchorSource/back_01.jpg",
+        "hash": "0ffcd55060ed6e74e3bddb2cc54c684f"
+    },
+    {
+        "file": "animation/LoadAni.ani",
+        "hash": "08c162a9354cbdb771ce4c9cf185de46"
+    },
+    {
+        "file": "animation/PullLoadAni.ani",
+        "hash": "38c82d27266cd8cea285224398496922"
+    },
+    {
+        "file": "apple-touch-icon.png",
+        "hash": "2805113e07a3cf668e68442009c97e93"
+    },
+    {
+        "file": "assets/client.21105a91.js",
+        "hash": "517a029f0837cc480c5ccbcc5ff0a68c"
+    },
+    {
+        "file": "assets/vendor.f71a2037.js",
+        "hash": "6c7781a789ec2363c9c3a4f42f7d8465"
+    },
+    {
+        "file": "browserconfig.xml",
+        "hash": "6c2f1b261fd9e4377e12e05e1cbd2d47"
+    },
+    {
+        "file": "css/font/_flaticon.scss",
+        "hash": "153b0b4c59f3b1dbb8f48fbe3614e797"
+    },
+    {
+        "file": "css/font/flaticon.css",
+        "hash": "89182006ad0a125a9c69c165e7262d02"
+    },
+    {
+        "file": "css/font/Flaticon.eot",
+        "hash": "852892292d86eed09833691a363ebf83"
+    },
+    {
+        "file": "css/font/flaticon.html",
+        "hash": "8ee640178e0af329383b46ef0f8950e1"
+    },
+    {
+        "file": "css/font/Flaticon.svg",
+        "hash": "531a9cf9358fb9fe485a9add6c8f2690"
+    },
+    {
+        "file": "css/font/Flaticon.ttf",
+        "hash": "2d9addd672bc683c943dbe050840ea94"
+    },
+    {
+        "file": "css/font/Flaticon.woff",
+        "hash": "78e5237b6bf743c6b2db3777f9d6509f"
+    },
+    {
+        "file": "css/weui.min.css",
+        "hash": "0e74024ea27362218c78f2af677666ae"
+    },
+    {
+        "file": "favicon.ico",
+        "hash": "338abbb5ea8d80b9869555eca253d49d"
+    },
+    {
+        "file": "gameSkin/back_04.png",
+        "hash": "6058adf7bb19ff09267264ff977b59a8"
+    },
+    {
+        "file": "gameSkin/back_big_1.png",
+        "hash": "84e2fcd94b69cbebc3449acc5606c3f1"
+    },
+    {
+        "file": "gift/clip_10004.png",
+        "hash": "d6d0ec02b39de4440bfeb5e660bcb312"
+    },
+    {
+        "file": "gift/clip_10005.png",
+        "hash": "1b3579284777d0d302dccc49828862d8"
+    },
+    {
+        "file": "gift/clip_10006.png",
+        "hash": "a5c68fbcb57d1d45931e97dff2f706c5"
+    },
+    {
+        "file": "gift/clip_10007.png",
+        "hash": "82655dfe4c20843f95d23008abf1af61"
+    },
+    {
+        "file": "gift/clip_10008.png",
+        "hash": "d28049e4a0612e725164388a6a8f0db0"
+    },
+    {
+        "file": "jquery-3.2.0.min.js",
+        "hash": "d4162c9d7e520a5de05001be6e741899"
+    },
+    {
+        "file": "js/adapter.js",
+        "hash": "f7a3a95c1ee09adf0f882194dbdea702"
+    },
+    {
+        "file": "js/App.js",
+        "hash": "73d326e4267fbe91e6fbc837d62b8074"
+    },
+    {
+        "file": "js/data/UserData.js",
+        "hash": "19dcbbc3d6b071ad6714a149b9b64243"
+    },
+    {
+        "file": "js/LayaLive.js",
+        "hash": "e0135d577dcdc8e497575e0cdbbd1820"
+    },
+    {
+        "file": "js/manage/FocusManage.js",
+        "hash": "922785a631b682a255cda16017abafea"
+    },
+    {
+        "file": "js/manage/GiftManage.js",
+        "hash": "2f2a19ce52629f6f93b570c9c7f62eb3"
+    },
+    {
+        "file": "js/manage/HTMLLiveManage.js",
+        "hash": "0b051413547e82051b4c6ce2a22614a4"
+    },
+    {
+        "file": "js/manage/LocalStrongManage.js",
+        "hash": "a4e62931f326d76aa9c1e8180e6b6817"
+    },
+    {
+        "file": "js/manage/PlayLiveManage.js",
+        "hash": "79f4122f47594f9e183b175fe922e4fd"
+    },
+    {
+        "file": "js/manage/PushLiveManage.js",
+        "hash": "2761f667dd6de35e1ff23cfb8a5cca81"
+    },
+    {
+        "file": "js/manage/SWFLiveManage.js",
+        "hash": "face0b9ca45bed3da45f45a2b94693b8"
+    },
+    {
+        "file": "js/manage/ViewManager.js",
+        "hash": "416bd1a70fe59862d6b12e65acc6fd51"
+    },
+    {
+        "file": "js/net/HttpConfig.js",
+        "hash": "5916a63ab53c5420b40e94d6eaa3ef71"
+    },
+    {
+        "file": "js/net/HttpControl.js",
+        "hash": "e459712dbfbd338f70b86488f303ecb0"
+    },
+    {
+        "file": "js/net/WebSocketService.js",
+        "hash": "1ccb838e49a5dd803bb3581ab9e060f5"
+    },
+    {
+        "file": "js/render/HomeTitleRender.js",
+        "hash": "6024bf0c19ba13dc24efed6d45e543df"
+    },
+    {
+        "file": "js/ui/layaUI.max.all.js",
+        "hash": "ad93aa3a7d93ed1df235470528786b24"
+    },
+    {
+        "file": "js/until/MEvent.js",
+        "hash": "e84ee6508361d2a8420b0152667058c9"
+    },
+    {
+        "file": "js/until/MEventDispatcher.js",
+        "hash": "624cfd7cecc1b25fbdb4583519db322b"
+    },
+    {
+        "file": "js/until/StringUntil.js",
+        "hash": "14a1f67ad6813a5ed43407a0e699a528"
+    },
+    {
+        "file": "js/vendor/modernizr-2.8.3-respond-1.4.2.min.js",
+        "hash": "694502130a5893fa9bc6ece58cfa0507"
+    },
+    {
+        "file": "js/view/ChangeHeadView.js",
+        "hash": "3160fc2aa3a6693e42dbc8ab9ed52e87"
+    },
+    {
+        "file": "js/view/ChangeNickNameView.js",
+        "hash": "b0e18c9b7e1b7d1cefd5bdc4f6066ac1"
+    },
+    {
+        "file": "js/view/ChangePasswordView.js",
+        "hash": "2c8f9a0e408df42c17e8b45f833ae4bb"
+    },
+    {
+        "file": "js/view/compont/MVbox.js",
+        "hash": "fd13dcd8f910f782cca61a526ef6740a"
+    },
+    {
+        "file": "js/view/dialog/TipDialog.js",
+        "hash": "6a3f3e523362873cdc64f0861b630f48"
+    },
+    {
+        "file": "js/view/ErrorTipView.js",
+        "hash": "b1f9d0fd55e1149e343fefcbba32ac80"
+    },
+    {
+        "file": "js/view/GongGaoView.js",
+        "hash": "cfa0c822674436a29f6f3e268d5e3f18"
+    },
+    {
+        "file": "js/view/HomeView.js",
+        "hash": "3174316ee63426bb8e0af741eca9cbda"
+    },
+    {
+        "file": "js/view/IncomeView.js",
+        "hash": "ec2019aac6894f4eea0ccc99c017a44e"
+    },
+    {
+        "file": "js/view/LoadingMaskView.js",
+        "hash": "c15a5f6063f495e6b273b2f051dc01d5"
+    },
+    {
+        "file": "js/view/LoadingView.js",
+        "hash": "e6da6d12023cd6a38f1f306057567714"
+    },
+    {
+        "file": "js/view/LoginView.js",
+        "hash": "7598cc897f37c617fe1573ab13390f21"
+    },
+    {
+        "file": "js/view/MVbox.js",
+        "hash": "d8f30096c0d2355c056ee5374102a706"
+    },
+    {
+        "file": "js/view/RechargeAmountView.js",
+        "hash": "5daf969169d4f86be2622414c5ea2b8c"
+    },
+    {
+        "file": "js/view/RechargePayView.js",
+        "hash": "013cf3a2dccbfb439ca352e5c792c565"
+    },
+    {
+        "file": "js/view/render/AvatarRender.js",
+        "hash": "004804d0faff08c7daa120c7f1840721"
+    },
+    {
+        "file": "js/view/render/ChangePsdRender.js",
+        "hash": "671d969da80cd1f1d84ef63838bdec42"
+    },
+    {
+        "file": "js/view/render/ChatItemRender.js",
+        "hash": "f115d6a8cab8a4710c930f520ea5f670"
+    },
+    {
+        "file": "js/view/render/ChatItemView.js",
+        "hash": "e65a614e225f7376b0dca589472049dc"
+    },
+    {
+        "file": "js/view/render/ChatListRender.js",
+        "hash": "c449a846cc02b3b2cb9fa67a88021889"
+    },
+    {
+        "file": "js/view/render/GiftItemRender.js",
+        "hash": "8b696a8d1cc8b67daef883a02b56c78d"
+    },
+    {
+        "file": "js/view/render/GiftRender.js",
+        "hash": "444057656b5a0163d352c58ab2b65d90"
+    },
+    {
+        "file": "js/view/render/HomeTitleRender.js",
+        "hash": "6a60e7d3d98e89ffa9d97869c1e6a239"
+    },
+    {
+        "file": "js/view/render/IncomItemRender.js",
+        "hash": "7abd5e1a39dd64f92e1148fa2d7d504a"
+    },
+    {
+        "file": "js/view/render/LockRender.js",
+        "hash": "8f0ee7e1b48ae536a1842ca9359c1bc1"
+    },
+    {
+        "file": "js/view/render/LoginRender.js",
+        "hash": "761c51b42221cd176d3747737b5ed88c"
+    },
+    {
+        "file": "js/view/render/NoAnchorRender.js",
+        "hash": "13335f2b251bf1a1a4fc70be8c694a40"
+    },
+    {
+        "file": "js/view/render/PullDownRender.js",
+        "hash": "abe30de60133cd6de3ebc79f4e1e909d"
+    },
+    {
+        "file": "js/view/render/QuiteTipRender.js",
+        "hash": "c907ba00f2f9992bdd24d3351d3f2da3"
+    },
+    {
+        "file": "js/view/render/RechargeListRender.js",
+        "hash": "4a3a5b54ffc374615e48cc650d8aebf1"
+    },
+    {
+        "file": "js/view/render/RechargeTitleRender.js",
+        "hash": "3ab87dac9a087907909b8ef804c8ff53"
+    },
+    {
+        "file": "js/view/render/ResetRender.js",
+        "hash": "44e20ab97ab2520e0291dcaedaedb3c4"
+    },
+    {
+        "file": "js/view/render/RoomBottomRender.js",
+        "hash": "9409a40ac3a21959f942f17a71052003"
+    },
+    {
+        "file": "js/view/render/RoomBottomView.js",
+        "hash": "00cf78ff650f5585789398c5e74b991d"
+    },
+    {
+        "file": "js/view/render/RoomChatRender.js",
+        "hash": "daacefaac599ee8138700d2c7278f529"
+    },
+    {
+        "file": "js/view/render/RoomGiftRender.js",
+        "hash": "bc99313d32f0fe76526678ea5ae7d019"
+    },
+    {
+        "file": "js/view/render/RoomRender.js",
+        "hash": "3c45e8302c700fbefeccb24c396cf1d6"
+    },
+    {
+        "file": "js/view/render/RoomTitleRender.js",
+        "hash": "61fc33941ade5f9bca307a702c1aa3bf"
+    },
+    {
+        "file": "js/view/render/SetListItemRender.js",
+        "hash": "7fb185463b3d43d32f5fce95f7643e82"
+    },
+    {
+        "file": "js/view/render/SetTitleRender.js",
+        "hash": "e201683c3dd0eadf0b052be85c0e69a9"
+    },
+    {
+        "file": "js/view/render/SingUpRender.js",
+        "hash": "f7bf41471ac731f99c680154e69153cd"
+    },
+    {
+        "file": "js/view/RoomSetView.js",
+        "hash": "bd199d939543aa6bdb591258aabed5e4"
+    },
+    {
+        "file": "js/view/RoomView.js",
+        "hash": "175bcfe6c85e97275ffb21ae7bcd324d"
+    },
+    {
+        "file": "js/view/SetView.js",
+        "hash": "ca1924ba974d9ca57855157dd2860c31"
+    },
+    {
+        "file": "js/view/UpdataView.js",
+        "hash": "0221a6bc2008d3b729c84293b97d9e26"
+    },
+    {
+        "file": "js/view/WeiHuView.js",
+        "hash": "05e132f09f30a8b46bf8a90f9083ae79"
+    },
+    {
+        "file": "libs/bytebuffer.js",
+        "hash": "c30efaa953bc38be0a354020b1ca0e34"
+    },
+    {
+        "file": "libs/flv.min.js",
+        "hash": "712067662c70fa2c031c87fb9a60a2a7"
+    },
+    {
+        "file": "libs/laya.ani.js",
+        "hash": "c8751ea44904f06915452fc66b607ace"
+    },
+    {
+        "file": "libs/laya.core.js",
+        "hash": "9f9213f1f373b3df4ffca7b3bae2f077"
+    },
+    {
+        "file": "libs/laya.d3.js",
+        "hash": "a61fc861bd13bbf22a3042627283e897"
+    },
+    {
+        "file": "libs/laya.d3Plugin.js",
+        "hash": "c90b70a7b9cf5b6535c49e2cdf06d83d"
+    },
+    {
+        "file": "libs/laya.debugtool.js",
+        "hash": "e59c4c18563f33061e020c0ed1acbcd9"
+    },
+    {
+        "file": "libs/laya.device.js",
+        "hash": "20aa401ab970e19a2f1ce6a8e22352f6"
+    },
+    {
+        "file": "libs/laya.filter.js",
+        "hash": "9850d02ffc8c79d1895ac9ea0b9db408"
+    },
+    {
+        "file": "libs/laya.html.js",
+        "hash": "5b755b47ed56c88de37be0c3afa0706a"
+    },
+    {
+        "file": "libs/laya.particle.js",
+        "hash": "860ff9668996a0d19b11132b32281844"
+    },
+    {
+        "file": "libs/laya.pathfinding.js",
+        "hash": "e0be4d7d90c5a19e45f0701bc2d43d3d"
+    },
+    {
+        "file": "libs/laya.tiledmap.js",
+        "hash": "434cc5a9f989afc95631fa2c5342e7ea"
+    },
+    {
+        "file": "libs/laya.ui.js",
+        "hash": "2624336ce9a02a89566944e97ce3caf3"
+    },
+    {
+        "file": "libs/laya.webgl.js",
+        "hash": "19bcfca02081629763cc52231951df88"
+    },
+    {
+        "file": "libs/matter-RenderLaya.js",
+        "hash": "e4ef9118ee169fe4bd60d78bc53135ae"
+    },
+    {
+        "file": "libs/matter.js",
+        "hash": "f8e03cdca1e8fcbb8f36374a1ba095ef"
+    },
+    {
+        "file": "libs/min/flv.min.js",
+        "hash": "1af789a615e5b94d419df8f6f7a98e18"
+    },
+    {
+        "file": "libs/min/laya.ani.min.js",
+        "hash": "cc8b289ce6e85ed13ac0048006d52814"
+    },
+    {
+        "file": "libs/min/laya.core.min.js",
+        "hash": "6ac146fbca8210d5598b63552e1022fa"
+    },
+    {
+        "file": "libs/min/laya.d3.min.js",
+        "hash": "58769492ed827aa424505e61cb4249cd"
+    },
+    {
+        "file": "libs/min/laya.d3Plugin.min.js",
+        "hash": "e94084f681e891fc60a07d3c17fc75a4"
+    },
+    {
+        "file": "libs/min/laya.debugtool.min.js",
+        "hash": "ab900a67d610311b4c34a461e9134190"
+    },
+    {
+        "file": "libs/min/laya.device.min.js",
+        "hash": "e58367ae7dc600812e24db44a18cd52a"
+    },
+    {
+        "file": "libs/min/laya.filter.min.js",
+        "hash": "04dd0e7ba2571107e05e1d903af6d67b"
+    },
+    {
+        "file": "libs/min/laya.html.min.js",
+        "hash": "493341fb4a24ad698466f7610718a7b1"
+    },
+    {
+        "file": "libs/min/laya.particle.min.js",
+        "hash": "48367ebd7d6fbf79ebc288019cd92c26"
+    },
+    {
+        "file": "libs/min/laya.pathfinding.min.js",
+        "hash": "3986c85bc3118ac0d558333f5cfa1b66"
+    },
+    {
+        "file": "libs/min/laya.tiledmap.min.js",
+        "hash": "d977874799479e111aae7fc0f46f8795"
+    },
+    {
+        "file": "libs/min/laya.ui.min.js",
+        "hash": "63304d0046c0cdaa3c544b5cf6e5ca35"
+    },
+    {
+        "file": "libs/min/laya.webgl.min.js",
+        "hash": "67c3730bd7480ed93dcf33fca8e0c5de"
+    },
+    {
+        "file": "libs/pomelo-client.js",
+        "hash": "bfd8226e280a0784bc8a0242abd17894"
+    },
+    {
+        "file": "libs/pomelo/build/build.js",
+        "hash": "fc6b20e5221370ab6f7a1aa2a234bdf9"
+    },
+    {
+        "file": "libs/pomelo/component.json",
+        "hash": "2ef224a5d0eaf4e95a64c4a55532df8f"
+    },
+    {
+        "file": "libs/pomelo/components/component-emitter/component.json",
+        "hash": "55f66c4c6cb7278d7afcc67dad420e16"
+    },
+    {
+        "file": "libs/pomelo/components/component-emitter/index.js",
+        "hash": "5d79757161473e4a94f8ae06428c5162"
+    },
+    {
+        "file": "libs/pomelo/components/NetEase-pomelo-protocol/component.json",
+        "hash": "9b12e5afe21999b5fe588903537b357d"
+    },
+    {
+        "file": "libs/pomelo/components/NetEase-pomelo-protocol/lib/protocol.js",
+        "hash": "a08130cddf98bd78b21b73e17a3ced71"
+    },
+    {
+        "file": "libs/pomelo/components/pomelonode-pomelo-jsclient-websocket/component.json",
+        "hash": "d116dda28b7529d1c0707eaf2de80e1e"
+    },
+    {
+        "file": "libs/pomelo/components/pomelonode-pomelo-jsclient-websocket/lib/pomelo-client.js",
+        "hash": "243749c633be33dcb5d4541aeabce330"
+    },
+    {
+        "file": "libs/pomelo/components/pomelonode-pomelo-protobuf/component.json",
+        "hash": "c3c437d2d38aaabcf6e64753284fe7d6"
+    },
+    {
+        "file": "libs/pomelo/components/pomelonode-pomelo-protobuf/lib/client/protobuf.js",
+        "hash": "403e09b32c91446afc00b0a72332bcf9"
+    },
+    {
+        "file": "libs/pomelo/jquery-1.8.0.min.js",
+        "hash": "cd8b0bffc85bb5614385ee4ce3596d07"
+    },
+    {
+        "file": "libs/pomelo/local/boot/component.json",
+        "hash": "34ffab08ce735fd067cb4051af990afa"
+    },
+    {
+        "file": "libs/pomelo/local/boot/index.js",
+        "hash": "9c9fac0ab8984b386976d4db556b18cc"
+    },
+    {
+        "file": "libs/protobuf.js",
+        "hash": "98d4c073a1cd59ffcc6c31307798c404"
+    },
+    {
+        "file": "libs/swfobject.js",
+        "hash": "a58a5dab999c907bbfcad696b5206bd0"
+    },
+    {
+        "file": "loadSkin/back_01.jpg",
+        "hash": "154cfd0c758a073617c4cb2146041912"
+    },
+    {
+        "file": "main.html",
+        "hash": "14ba10ed7bce4d89dcdb508e097ebc08"
+    },
+    {
+        "file": "main.min.js",
+        "hash": "b98dd692ff0e80188eec85b694ca0742"
+    },
+    {
+        "file": "material/1600.jpg",
+        "hash": "f3f4f521b45b8fd58d1a7bc0baf8a6a0"
+    },
+    {
+        "file": "material/512_2.gif",
+        "hash": "de3781a20ed8d985b470dd175b61e686"
+    },
+    {
+        "file": "material/512.gif",
+        "hash": "d69e810310868432911635b1d0aa759d"
+    },
+    {
+        "file": "material/551d0d1e-abcd-4e29-8b0f-c036f7877c7a.jpg",
+        "hash": "deffc466c069368e0a5ee8f6f751c8bd"
+    },
+    {
+        "file": "material/88367b33-f5ce-4023-9ea9-968ca2769f40.jpg",
+        "hash": "d146f6299976aee7b953b1120ec94157"
+    },
+    {
+        "file": "res/atlas/comp.json",
+        "hash": "c742626054fae11799c806cd3083772d"
+    },
+    {
+        "file": "res/atlas/comp.png",
+        "hash": "6412e8622ba9c02ff9b6d1e1d8d83417"
+    },
+    {
+        "file": "res/atlas/gameSkin.json",
+        "hash": "2f46e73c768580b2e28e4c8c61f63c16"
+    },
+    {
+        "file": "res/atlas/gameSkin.png",
+        "hash": "2207126077f4f304294755d7bdcca871"
+    },
+    {
+        "file": "res/atlas/gift.json",
+        "hash": "e98637c8cabaf50deab2474f97782d6f"
+    },
+    {
+        "file": "res/atlas/gift.png",
+        "hash": "dc5c213d7b73bd2f6ee0ca6715413c7a"
+    },
+    {
+        "file": "res/atlas/loadSkin.json",
+        "hash": "70fa02f2be31017fcd1caab7aad818f6"
+    },
+    {
+        "file": "res/atlas/loadSkin.png",
+        "hash": "0fe29e8952b893950ed382be7b3e06e4"
+    },
+    {
+        "file": "res/atlas/rec",
+        "hash": "1640a7126084def5dba266fe9d67de3d"
+    },
+    {
+        "file": "res/html/640-80.gif",
+        "hash": "562a95af2006c2e4c1fd78bd537e6eaa"
+    },
+    {
+        "file": "res/html/ad1-android.html",
+        "hash": "058a40dfaf0931e42f3155a7ae24ae46"
+    },
+    {
+        "file": "res/html/ad1-ios.html",
+        "hash": "c9852f58b37bdcebb83f890eb5404ca9"
+    },
+    {
+        "file": "testpay.html",
+        "hash": "100ca6f00b15a3fdff82cbcddbdbbfb2"
+    },
+    {
+        "file": "testupload.html",
+        "hash": "db96b3720c4976ca3ed599eb3ccba03d"
+    },
+    {
+        "file": "tile-wide.png",
+        "hash": "8eec2319b4adbc36c1874f0ccaabc958"
+    },
+    {
+        "file": "tile.png",
+        "hash": "9bee3f492c17e9fecc3949397ba0e022"
+    },
+    {
+        "file": "unpack.json",
+        "hash": "033f40b291b21c1a03368c601f8b13ed"
+    },
+    {
+        "file": "upload.png",
+        "hash": "2c40fbe726d4059c78c83adfefd8a46c"
+    }
+]

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8' />
+	<meta httpEquiv="Content-Security-Policy" content="default-src 'self' ws: wss: data: gap: cdvfile: file: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content: cdvfile:;script-src 'self' 'unsafe-inline' 'unsafe-eval' javascript: ws: gap: cdvfile: file: https://ssl.gstatic.com;" />
+	<title>桃色直播</title>
+	<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'/>
+	<meta name='apple-mobile-web-app-capable' content='yes' />
+	<meta name='full-screen' content='true' />
+	<meta name='screen-orientation' content='portrait' />
+	<meta name='x5-fullscreen' content='true' />
+	<meta name='360-fullscreen' content='true' />
+
+	<script type="text/javascript" src="cordova.js"></script>
+</head>
+
+
+<body>
+	<div id="videoElement"></div>
+	<script type="text/javascript" src="libs/swfobject.js"></script>
+	<script type="text/javascript" src="libs/min/flv.min.js"></script>
+	<script type="text/javascript" src="libs/pomelo/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="libs/pomelo/build/build.js"></script>
+	<script type="text/javascript" src="js/umeng.js"></script>
+	<script type="text/javascript">
+		require('boot');
+		window['localFile'] = true;
+		var node = document.body;
+		var srcArr = [
+		'libs/min/laya.core.min.js',
+		'libs/min/laya.webgl.min.js',
+		'libs/min/laya.filter.min.js',
+		'libs/min/laya.html.min.js',
+		'libs/min/laya.ui.min.js',
+		'main.min.js'
+		];
+		document.addEventListener("deviceready", loadOther);
+		function loadOther(){
+			console.log('开始加载');
+			loadNext(0);
+		}
+		function loadNext(idx){
+			if(idx >= srcArr.length) return;
+			$.getScript(srcArr[idx],function(){
+				idx++;
+				loadNext(idx);
+			});
+		};
+	</script>
+</body>
+</html>

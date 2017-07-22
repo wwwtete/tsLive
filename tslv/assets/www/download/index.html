@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+
+<!-- Mirrored from app.hongxing123.com:8000/download/download.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 13:08:41 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>桃色直播</title>
+    <style>
+    html,body{
+        width:100%;
+        height:100%;
+        margin:0px;padding:0px;
+    }
+
+    body{
+        position:relative;
+    }
+
+    #app{
+        width:100%;
+        height:100%;
+        overflow-y:auto;
+
+        background:url(images/bg.jpg);
+        background-size:cover;
+        position:relative;
+    }
+
+    .text2,.scanfordownload,.qrcode,.text1,.button{
+        text-align:center;
+    }
+
+    .text2{
+    }
+
+    .text2 img{
+        width:70%;
+            margin-top: 25%;
+    }
+
+    .scanfordownload{}
+
+    .scanfordownload img{
+        width: 20%;
+        margin-top: 10px;
+    }
+
+    .qrcode{}
+
+    .qrcode img{
+        width:40%;
+        margin: 20px auto;
+    }
+
+    .text1{}
+
+    .text1 img{
+        width:70%;
+    }
+
+    .button{}
+
+    .button img{
+        width: 65%;
+        margin: 5% auto 0;
+        dispaly:block;
+    }
+    </style>
+</head>
+
+<body style="background:#fff;position:relative;">
+<div id="app" >
+<div class="text2" style="height:80px;"></div>
+<div class="qrcode" ><img src="images/qrcode.png" /></div>
+<div class="button button-android" ><a id="btn" href="#" id="download-button" style="display:inline-block;"><img src="images/android.png" /></a></div>
+
+<div id="help-layer" style="position:absolute;left:0px;top:0px;right:0px;bottom:0px;z-index:2;display:none;overflow:hidden;overflow-y:auto;" >
+    <a href="javascript:closeHelp();void(0);" style="display:inline-block;position:fixed;top:10px;right:10px;">
+    <img src="./images/close-button.png" style="width:36px;height:36px;"/>
+    </a>
+    <img style="width:100%" src="./images/help.jpg" />
+</div>
+
+<div id="mask" style="position:absolute;left:0px;top:0px;right:0px;bottom:0px;z-index:9;background:rgba(0,0,0,0.66);display:none;" >
+    <img src="images/live_weixin.png" style="width:100%;" />
+</div>
+</div>
+
+<script src="js/mui.min.js"></script>
+<script src="js/download.js"></script>
+<script>
+var browser = {
+    versions: function () {
+        var u = navigator.userAgent,
+            app = navigator.appVersion;
+        return { //移动终端浏览器版本信息
+            trident: u.indexOf( 'Trident' ) > -1, //IE内核
+            presto: u.indexOf( 'Presto' ) > -1, //opera内核
+            webKit: u.indexOf( 'AppleWebKit' ) > -1, //苹果、谷歌内核
+            gecko: u.indexOf( 'Gecko' ) > -1 && u.indexOf( 'KHTML' ) == -1, //火狐内核
+            mobile: !!u.match( /AppleWebKit.*Mobile.*/ ) || !!u.match( /AppleWebKit/ ), //是否为移动终端
+            ios: !!u.match( /\(i[^;]+;( U;)? CPU.+Mac OS X/ ), //ios终端
+            android: u.indexOf( 'Android' ) > -1 || u.indexOf( 'Linux' ) > -1, //android终端或者uc浏览器
+            iPhone: u.indexOf( 'iPhone' ) > -1 || u.indexOf( 'Mac' ) > -1, //是否为iPhone或者QQHD浏览器
+            iPad: u.indexOf( 'iPad' ) > -1, //是否iPad
+            webApp: u.indexOf( 'Safari' ) == -1 //是否web应该程序，没有头部与底部
+        };
+    }(),
+    language: (navigator.browserLanguage || navigator.language).toLowerCase()
+}
+var btn = document.getElementById('btn');
+if(browser.versions.mobile){
+    if(browser.versions.ios || browser.versions.iPhone || browser.versions.iPad){
+        //设置跳转ios地址
+        btn.href = 'itms-services:///?action=download-manifest&url=https://www.taoseios.com/tslv.plist';
+    }else if(browser.versions.android){
+        //设置跳转安卓地址
+        btn.href = 'http://bucket1-1253397906.file.myqcloud.com/tslv-1.0.5.apk'
+    }
+}
+</script>
+</body>
+
+<!-- Mirrored from app.hongxing123.com:8000/download/download.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Dec 2016 13:08:47 GMT -->
+</html>

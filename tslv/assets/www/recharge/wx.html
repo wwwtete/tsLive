@@ -1,0 +1,146 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+html{
+ 	font-size:14px; 
+/*  	font-size:7px; */
+}
+body {
+	background-color:#fff;
+	color: DimGray;
+	font-size: 3rem
+}
+
+h1 {
+	font-size: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.alipayAccount{
+	font-size: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    text-align: center;
+    color: #eaa509;
+    line-height: 1.1;
+}
+
+.alipayQRCode{
+	font-size: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #eaa509;
+    line-height: 1.1;
+    margin-top: 1rem;
+}
+.pic{
+    font-size: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #eaa509;
+    line-height: 1.1;
+    margin-top: 1rem;
+}
+.pic img{
+	width: 80vw;
+}
+.clickCopy {
+	font-size: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #eaa509;
+}
+.userInfo{
+    font-size: 4rem;
+}
+.alarm {
+	margin: 5rem 3rem;
+    color: red;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.tipBlock {
+	margin: 3rem
+}
+
+.tips {
+	font-size: 2rem;
+    color: #868281;
+    margin: 1rem 0rem;
+}
+
+.btn{
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
+    padding: 20px;
+    border: 1px solid #d5d5d5;
+    color: #333333;
+    box-shadow: none !important;
+    font-size: 4rem;
+    font-weight: bold;
+    display: block;
+}
+
+.manualUpload{
+	font-size: 2rem;
+    color: #868281;
+}
+</style>
+<script src="dist/clipboard.min.js"></script>
+<script src="http://webapi.mbsea.com/res/js/jquery-2.0.3.min.js"></script>
+<title>微信支付</title>
+</head>
+<body onload="">
+	<h1>微信人工转账</h1>
+
+	<div class="alipayQRCode">
+		<p class="userInfo"></p>
+	</div>
+    
+    <div class="pic">
+        <!--<img src="img/49_pic.jpeg"></img>-->
+        人工充值暂不开放
+    </div>
+
+	<div class="tipBlock">
+		<p class="tips">充值说明：</p>
+		<p class="tips">
+            1. 长按用户ID并复制数字部分<br>
+			2. 长按上面二维码并保存<br>
+			3. 通过微信扫一扫功能，扫描保存的图片进行付款，并在留言中粘贴用户唯一ID<br>
+			4. 系统审核通过后金币即可到账。<br>
+            <!--如果忘记填写备注，请联系QQ:2737367174-->
+		</p>
+	</div>
+
+	<script type="text/javascript">
+        var getQueryString = function(name) {
+			var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+			var r = window.location.search.substr(1).match(reg);
+			if (r != null) {
+			return r[2];
+			}
+			return null;
+		}
+        var userId = window.getQueryString('userId');
+        var tips = document.getElementsByClassName('userInfo')[0];
+        tips.innerHTML = '用户唯一ID为：' + userId;
+	</script>
+</body>
+</html>
